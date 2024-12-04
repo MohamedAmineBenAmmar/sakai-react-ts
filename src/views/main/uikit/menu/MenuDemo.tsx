@@ -14,7 +14,7 @@ import { useNavigate } from "react-router";
 import { useLocation } from "react-router";
 
 
-const MenuDemo = ({ children }: { children: React.ReactNode }) => {
+const MenuDemo = ({ children }: { children: React.ReactNode}) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const menu = useRef<Menu>(null);
   const contextMenu = useRef<ContextMenu>(null);

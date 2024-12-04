@@ -67,7 +67,7 @@ export const router = createBrowserRouter([
         element: <ButtonDemo />,
       },
       {
-        path: "/uikit/table ",
+        path: "/uikit/table",
         element: <TableDemo />,
       },
       {
@@ -92,7 +92,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/uikit/menu",
-        element: <MenuDemo />,
+        element: <MenuDemo children={undefined} />,
       },
       {
         path: "/uikit/message",
